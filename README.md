@@ -16,5 +16,16 @@ The current script demonstrated the ability to create a very accurate classifier
 1. Predict colon polyps in one image from test folder: [Fastai-Colon-Polyps_Predict.ipynb](Fastai-Colon-Polyps_Predict.ipynb).
 2. Re-train your better model using the current dataset: [Fastai-Colon-Polyps.ipynb](Fastai-Colon-Polyps.ipynb).
 
+### Web tool implementation
+
+The best model was implemented as a web app using Flask: [https://github.com/muntisa/Colon-Polyps-Fastai-App](https://github.com/muntisa/Colon-Polyps-Fastai-App).
+
+You can directly use the already created docker from [https://hub.docker.com/repository/docker/muntisa/colon-polyps-fastai](https://hub.docker.com/repository/docker/muntisa/colon-polyps-fastai).
+
+Run the local docker with the following command:
+```
+docker run -p 5000:5000 colon-polyps-fastai
+```
+
 Hf with DL!
 @muntisa
